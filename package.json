@@ -2,12 +2,14 @@
   "name": "Ledger-Integration-App",
   "version": "0.0.1",
   "description": "Creating a ledger integration wallet app",
-  "main": "index.js",
+  "source": "src/index.html",
   "repository": "https://github.com/dezzydez007/Ledger-Integration-App.git",
   "author": "dezzydez007 <nkefuan@yahoo.com>",
   "license": "MIT",
   "dependencies": {
     "@ledgerhq/hw-app-btc": "^6.27.1",
+    "@ledgerhq/hw-transport-webhid": "^6.27.1",
+    "@ledgerhq/hw-transport-webusb": "^6.27.1",
     "@ledgerhq/logs": "^6.10.0",
     "core-js": "^3.22.5"
   },
