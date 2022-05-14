@@ -7,7 +7,7 @@
   "author": "dezzydez007 <nkefuan@yahoo.com>",
   "license": "MIT",
   "scripts": {
-    "build": "parcel build", 
+    "build": "parcel build",
     "start": "parcel"
   },
   "dependencies": {
@@ -18,7 +18,9 @@
     "core-js": "^3.22.5"
   },
   "devDependencies": {
-    "parcel": "^2.5.0"
+    "buffer": "^6.0.3",
+    "parcel": "^2.5.0",
+    "process": "^0.11.10",
+    "stream-browserify": "^3.0.0"
   }
-  
 }
