@@ -6,6 +6,10 @@
   "repository": "https://github.com/dezzydez007/Ledger-Integration-App.git",
   "author": "dezzydez007 <nkefuan@yahoo.com>",
   "license": "MIT",
+  "scripts": {
+    "build": "parcel build", 
+    "start": "parcel"
+  },
   "dependencies": {
     "@ledgerhq/hw-app-btc": "^6.27.1",
     "@ledgerhq/hw-transport-webhid": "^6.27.1",
@@ -16,4 +20,5 @@
   "devDependencies": {
     "parcel": "^2.5.0"
   }
+  
 }
