@@ -17,7 +17,7 @@ document.body.addEventListener("click", async () => {
   try {
 
     //trying to connect to your Ledger device with USB protocol
-    const transport = await TransportWebUSB.create();
+    const transportt = await TransportWebUSB.create();
 
     //trying to connect to your Ledger device with HID protocol
     const transport = await TransportWebHID.create();
